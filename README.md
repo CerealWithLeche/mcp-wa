@@ -12,7 +12,8 @@ Escanear QR
 5. Iniciar app.py
 
 **Para interacción "natural"**
-5. Iniciar chat_client.py
+
+6. Iniciar chat_client.py
 
 ## Consultas con CURL
 Es una forma más rápida que envíar prompts en chat_client.py
