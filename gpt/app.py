@@ -13,8 +13,8 @@ import websockets
 import time
 
 # Configuración inicial
-PATH_TO_UV = os.getenv("PATH_TO_UV", "/home/luis-ignacio-zamora/.local/bin/uv")
-PATH_TO_SRC = os.getenv("PATH_TO_SRC", "/home/luis-ignacio-zamora/mcp_wa/whatsapp-mcp")
+PATH_TO_UV = os.getenv("PATH_TO_UV", "/path/to/uv") #consultar con which uv 
+PATH_TO_SRC = os.getenv("PATH_TO_SRC", "/path/to/whatsapp-mcp") #ruta del repositorio colonado
 WHATSAPP_API_URL = os.getenv("WHATSAPP_API_URL", "http://localhost:8080")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "api-key")
 OPENAI_API_URL = "https://api.openai.com/v1/chat/completions"
