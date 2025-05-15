@@ -10,7 +10,8 @@ Escanear QR
 1. Una vez iniciado el servidor de WA
 3. Crear un nuervo entorno para
 4. Satisfacer las dependencias de app.py y chat_client.py
-5. Iniciar app.py
+5. Cambiar rutas de app.py
+6. Iniciar app.py (Asegurarse de tener libre el puerto)
 
 **Para interacción "natural"**
 
