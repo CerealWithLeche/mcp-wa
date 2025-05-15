@@ -1,6 +1,7 @@
 ## Iniciar servidor WA
-Clonar: https://github.com/lharries/whatsapp-mcp.git 
-En whatsapp-bridge iniciar el servidor con
+Clonar: https://github.com/lharries/whatsapp-mcp.git
+
+En whatsapp-bridge/ iniciar el servidor con
 
     go run main.go
 Escanear QR
