@@ -1,4 +1,22 @@
+## Iniciar servidor WA
+Clonar: https://github.com/lharries/whatsapp-mcp.git 
+En whatsapp-bridge iniciar el servidor con
+
+    go run main.go
+Escanear QR
+
+## Interactuar directamente con asistente de terminal(DeepSeek o GPT)
+1. Una vez iniciado el servidor de WA
+3. Crear un nuervo entorno para
+4. Satisfacer las dependencias de app.py y chat_client.py
+5. Iniciar app.py
+
+**Para interacción "natural"**
+5. Iniciar chat_client.py
+
 ## Consultas con CURL
+Es una forma más rápida que envíar prompts en chat_client.py
+- Iniciar main.go y app.py
 ### Envíar mensaje a un contacto especifico
     curl -X POST http://localhost:5000/send-to-contact \
     -H "Content-Type: application/json" \
@@ -66,11 +84,3 @@ Detener servidor
     curl -X POST http://localhost:5000/control-whatsapp-server \
       -H "Content-Type: application/json" \
       -d '{"action": "stop"}'
-
-## Interactuar directamente con asistente de terminal(DeepSeek o GPT)
-1. Iniciar servidor de WA
-   En 
-   
-3. Crear un nuervo entorno para
-4. Satisfacer las dependencias de app.py
-5. 
