@@ -66,3 +66,11 @@ Detener servidor
     curl -X POST http://localhost:5000/control-whatsapp-server \
       -H "Content-Type: application/json" \
       -d '{"action": "stop"}'
+
+## Interactuar directamente con asistente de terminal(DeepSeek o GPT)
+1. Iniciar servidor de WA
+   En 
+   
+3. Crear un nuervo entorno para
+4. Satisfacer las dependencias de app.py
+5. 
